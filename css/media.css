@@ -1,0 +1,71 @@
+@media only screen  and  (min-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1280px) and  (min-width: 960px) {
+
+}
+
+@media only screen and (max-width: 980px) {
+    .blog-entry {
+        width: 45%;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+    .header_info{ display: none;}
+    .header_info_mobile{ display: block;}
+    .top-bar .nav-trigger { bottom: 10px;}
+}
+
+
+@media only screen and (max-width: 680px) {
+    .blog-entry {
+        width: 90%;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+
+}
+
+@media only screen and (max-width: 470px) {
+    .header_info_mobile{ display: none;}
+    .menu_word{ display: none}
+    .header_title{font-size: 20px;}
+}
+
+@media only screen
+and (max-device-width: 1000px){
+    .header_title{font-size: 20px;}
+    .portfolio-link{
+        opacity: 1;
+        height: 100px;
+        top:212px;
+        -moz-transform:none;
+        -webkit-transform: none;
+        -o-transform: none;
+        -ms-transform: none;
+        transform: none;
+
+    }
+
+    .portfolio-link .portfolio-excerpt{
+        display: none;
+    }
+    .portfolio-link .portfolio-title{
+        font-size:20px ;
+        line-height:22px ;
+    }
+    .callout{
+        display:none;
+    }
+
+}
+/* Only medium */

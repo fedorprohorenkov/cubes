@@ -1,0 +1,63 @@
+/* Fragment Grey Theme */
+
+/* Text Colors */
+a,
+.filters li .selected,
+.filters li a:hover,
+.post-link a:hover,
+.post-link a:hover:before,
+.tabs-nav .active a,
+.expandable-trigger:before,
+.bypostauthor .comment-container .comment-author,
+.paragraph-lead,
+.state-enter:hover {
+	color: #9E9E9E;
+}
+
+/* Background Colors */
+a:hover,
+a:focus,
+.button,
+button,
+.button:hover,
+.note,
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly],
+.post-quote,
+.pricing-option .pricing-top .special-label,
+.pricing-option .pricing-signup {
+    background: #9E9E9E;
+}
+
+.pricing-option .pricing-signup:hover {
+    background: #726f6f;
+}
+
+/* Border Colors */
+a,
+blockquote,
+.post-link a:hover:before,
+.project-details {
+	border-color: #9E9E9E;
+}
+
+.tabs-nav .active a {
+    border-top-color: #9E9E9E;
+}
+
+/* Shadow Colors */
+.button, button {
+    box-shadow: 0 2px 1px 1px #726f6f, inset 0 2px 1px 1px rgba(0, 0, 0, 0);
+}
+
+/* Selection Text */
+::-moz-selection {
+    background: #f0f0f0;
+    color: #a7a7a7;
+    text-shadow: none;
+}
+
+::selection {
+    background: #f0f0f0;
+    color: #a7a7a7;
+    text-shadow: none;
+}
