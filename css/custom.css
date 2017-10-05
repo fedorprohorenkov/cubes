@@ -1,3 +1,18 @@
+@font-face{
+
+font-family: 'Basil Regular';
+
+src: url('../fonts/basil.ttf');
+
+src: url('../fonts/basil.ttf') format('ttf'),
+
+url('../fonts/basil.otf') format('otf'),
+
+font-weight: normal;
+
+font-style: normal;
+
+}
 .underline_menu{
     border-bottom: 1px solid rgba(59,79,148,0.9);
 }

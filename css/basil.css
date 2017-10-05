@@ -1,0 +1,22 @@
+@font-face{
+
+font-family: 'Basil Regular';
+
+src: url('../fonts/basil.ttf');
+
+src: url('../fonts/basil.ttf') format('ttf'),
+
+url('../fonts/basil.otf') format('otf'),
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+.hero,
+.paragraph-title,
+.divider-blog .divider-text-sub,
+.divider-text-lead
+{
+  font-family: 'Basil Regular';
+}
